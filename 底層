@@ -1,0 +1,208 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM1aTWxeQKkqhMYtoAkMlqP",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/jasom666/-2/blob/main/%E5%BA%95%E5%B1%A4\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UBGLTzh4iEeT",
+        "outputId": "f7f2f77d-4e4b-4e13-fb39-321a1fb85ba5"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "str"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ],
+      "source": [
+        "aaa= 'this' #字串\n",
+        "type(aaa)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "aaa=1 #整數\n",
+        "type(aaa)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "D4TmDYAblHVp",
+        "outputId": "422841e5-e2f3-43e2-c616-30c40c223495"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "int"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "aaa=1.1 #小數\n",
+        "type(aaa)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "o-nIWrrWlU3w",
+        "outputId": "37c001ef-1fbf-40e8-f191-74d0c3a6916b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "float"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "aaa=True\n",
+        "type(aaa)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "56Tmh_ITlU_g",
+        "outputId": "ed6bd06c-af48-4395-d3ae-b4f3ef3a3758"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "bool"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=(1,2,3) #tuple\n",
+        "type(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_xtIKdIJlVGJ",
+        "outputId": "9d62283d-40bf-46bc-ca40-107931838abb"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "tuple"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=[1,2,3] #list\n",
+        "type(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jaTFz-avlVNI",
+        "outputId": "5cadf8bf-5f63-4a39-c253-e2765217e9d9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "list"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 7
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rooms = {1: 'Foyer', 2: 'Conference Room'}\n",
+        "room = input('Enter the room number: ')\n",
+        "if not room in rooms:\n",
+        "\tprint('Room does not exist.')\n",
+        "else:\n",
+        "\tprint(\"The room name is \" + rooms[room])\n"
+      ],
+      "metadata": {
+        "id": "rqv78oSpmtjp"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
